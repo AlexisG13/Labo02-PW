@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <h1 align="center">Curriculum Vitae</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Data</legend>
+            <label >DUI</label><input type="number" placeholder="911420">
+            <label>First Name</label><input type="text" placeholder="First Name:">
+            <label>Last Name</label><input type="text" placeholder="Last Name:">
+            <label for="gender">Gender</label>
+            <input id="gender" type=radio>M
+            <input id="gender" type=radio>F
+            <br>
+            <br>
+            <label for="contact_number">Contact Number:</label>
+            <input id="contact_number" type="tel">
+            <label for="birthdate">Birthdate:</label>
+            <input id="birthdate" type="date" placeholder=>
+            <label for=civil_status>Civil Status</label>
+            <select id="civil_status">
+                <option>Single</option>
+                <option>Married</option>
+                <option>Other</option>
+            </select>    
+            <label for="image">Image</label>
+            <input id="file" type="file">
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Work Experience</legend>
+            <textarea rows="10" cols="220" placeholder="Experience"></textarea>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+                <legend>Academic Training</legend>
+                <textarea rows="10" cols="220" placeholder="Academic Training"></textarea>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Further Training</legend>
+            <fieldset>
+                <legend>Programming Languages</legend>
+                <input type="checkbox" name="check[]" value="Java">Java
+                <input type="checkbox" name="check[]" value="C#">C#
+                <input type="checkbox" name="check[]" value="Python">Python
+                <input type="checkbox" name="check[]" value="C++">C++
+                <input type="checkbox" name="check[]" value="Ruby">Ruby
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Web Technologies</legend>
+                <input type="checkbox" name="check[]" value="HTML5">HTML5
+                <input type="checkbox" name="check[]" value="CSS/CS3">CSS/CS3
+                <input type="checkbox" name="check[]" value="materialize Css">materialize Css
+                <input type="checkbox" name="check[]" value="Javascript">Javascript
+                <input type="checkbox" name="check[]" value="Node.js">Node.js
+                <input type="checkbox" name="check[]" value="Spring MVC">Spring MVC
+            </fieldset>
+        </fieldset>
+        <br>
+        <input type="submit" value="Send">
+        <button><a href="labo.html">Cancel</a></button>
+    </form>
+</body>
+</html>
